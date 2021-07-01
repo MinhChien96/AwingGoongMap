@@ -1,3 +1,3 @@
-import { GoongMapComponent } from './GoongMap';
+import GoongMapComponent from './GoongMap';
 
 export { GoongMapComponent };

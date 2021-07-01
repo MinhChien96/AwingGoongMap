@@ -6,8 +6,10 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "GoongMapComponent", {
   enumerable: true,
   get: function get() {
-    return _GoongMap.GoongMapComponent;
+    return _GoongMap.default;
   }
 });
 
-var _GoongMap = require("./GoongMap");
+var _GoongMap = _interopRequireDefault(require("./GoongMap"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
